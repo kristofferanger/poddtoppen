@@ -8,12 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		C9E466C12A90D41F00618A72 /* PoddtoppenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E466C02A90D41F00618A72 /* PoddtoppenApp.swift */; };
-		C9E466C32A90D41F00618A72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E466C22A90D41F00618A72 /* ContentView.swift */; };
 		C9E466C52A90D42500618A72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9E466C42A90D42500618A72 /* Assets.xcassets */; };
 		C9E466C82A90D42500618A72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9E466C72A90D42500618A72 /* Preview Assets.xcassets */; };
 		C9E466D22A90D42600618A72 /* PoddtoppenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E466D12A90D42600618A72 /* PoddtoppenTests.swift */; };
 		C9E466DC2A90D42600618A72 /* PoddtoppenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E466DB2A90D42600618A72 /* PoddtoppenUITests.swift */; };
 		C9E466DE2A90D42600618A72 /* PoddtoppenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E466DD2A90D42600618A72 /* PoddtoppenUITestsLaunchTests.swift */; };
+		C9E466F02A90D4E800618A72 /* PodcastDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E466EB2A90D4E700618A72 /* PodcastDetail.swift */; };
+		C9E466F12A90D4E800618A72 /* EpisodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E466EC2A90D4E700618A72 /* EpisodeCell.swift */; };
+		C9E466F22A90D4E800618A72 /* PodListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E466ED2A90D4E800618A72 /* PodListView.swift */; };
+		C9E466F32A90D4E800618A72 /* PosterImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E466EE2A90D4E800618A72 /* PosterImage.swift */; };
+		C9E466F42A90D4E800618A72 /* PodcastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E466EF2A90D4E800618A72 /* PodcastCell.swift */; };
+		C9E466F92A90D54100618A72 /* PodDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E466F72A90D54100618A72 /* PodDetailsViewModel.swift */; };
+		C9E466FA2A90D54100618A72 /* PodsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E466F82A90D54100618A72 /* PodsViewModel.swift */; };
+		C9E466FE2A90D56000618A72 /* Podcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E466FC2A90D56000618A72 /* Podcast.swift */; };
+		C9E466FF2A90D56000618A72 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E466FD2A90D56000618A72 /* Genre.swift */; };
+		C9E467052A90D58B00618A72 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E467012A90D58A00618A72 /* NetworkManager.swift */; };
+		C9E467062A90D58B00618A72 /* PodDetailsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E467022A90D58A00618A72 /* PodDetailsDataService.swift */; };
+		C9E467072A90D58B00618A72 /* PodsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E467032A90D58A00618A72 /* PodsDataService.swift */; };
+		C9E467082A90D58B00618A72 /* MockDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E467042A90D58B00618A72 /* MockDataService.swift */; };
+		C9E4670B2A90D5D700618A72 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E4670A2A90D5D700618A72 /* Extensions.swift */; };
+		C9E4670D2A90D60700618A72 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E4670C2A90D60700618A72 /* Constants.swift */; };
+		C9E467102A90D69D00618A72 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = C9E4670F2A90D69D00618A72 /* SDWebImageSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +51,6 @@
 /* Begin PBXFileReference section */
 		C9E466BD2A90D41F00618A72 /* Poddtoppen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Poddtoppen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E466C02A90D41F00618A72 /* PoddtoppenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoddtoppenApp.swift; sourceTree = "<group>"; };
-		C9E466C22A90D41F00618A72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C9E466C42A90D42500618A72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9E466C72A90D42500618A72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C9E466CD2A90D42600618A72 /* PoddtoppenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoddtoppenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +58,21 @@
 		C9E466D72A90D42600618A72 /* PoddtoppenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoddtoppenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E466DB2A90D42600618A72 /* PoddtoppenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoddtoppenUITests.swift; sourceTree = "<group>"; };
 		C9E466DD2A90D42600618A72 /* PoddtoppenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoddtoppenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C9E466EB2A90D4E700618A72 /* PodcastDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodcastDetail.swift; sourceTree = "<group>"; };
+		C9E466EC2A90D4E700618A72 /* EpisodeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeCell.swift; sourceTree = "<group>"; };
+		C9E466ED2A90D4E800618A72 /* PodListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodListView.swift; sourceTree = "<group>"; };
+		C9E466EE2A90D4E800618A72 /* PosterImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterImage.swift; sourceTree = "<group>"; };
+		C9E466EF2A90D4E800618A72 /* PodcastCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodcastCell.swift; sourceTree = "<group>"; };
+		C9E466F72A90D54100618A72 /* PodDetailsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodDetailsViewModel.swift; sourceTree = "<group>"; };
+		C9E466F82A90D54100618A72 /* PodsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodsViewModel.swift; sourceTree = "<group>"; };
+		C9E466FC2A90D56000618A72 /* Podcast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Podcast.swift; sourceTree = "<group>"; };
+		C9E466FD2A90D56000618A72 /* Genre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		C9E467012A90D58A00618A72 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		C9E467022A90D58A00618A72 /* PodDetailsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodDetailsDataService.swift; sourceTree = "<group>"; };
+		C9E467032A90D58A00618A72 /* PodsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodsDataService.swift; sourceTree = "<group>"; };
+		C9E467042A90D58B00618A72 /* MockDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockDataService.swift; sourceTree = "<group>"; };
+		C9E4670A2A90D5D700618A72 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C9E4670C2A90D60700618A72 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9E467102A90D69D00618A72 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +125,12 @@
 			isa = PBXGroup;
 			children = (
 				C9E466C02A90D41F00618A72 /* PoddtoppenApp.swift */,
-				C9E466C22A90D41F00618A72 /* ContentView.swift */,
+				C9E466EA2A90D4D100618A72 /* Views */,
+				C9E466F62A90D52200618A72 /* ViewModels */,
+				C9E466FB2A90D55300618A72 /* Models */,
+				C9E467092A90D5C000618A72 /* Extensions */,
+				C9E467002A90D57700618A72 /* Managers */,
+				C9E466F52A90D50E00618A72 /* Resources */,
 				C9E466C42A90D42500618A72 /* Assets.xcassets */,
 				C9E466C62A90D42500618A72 /* Preview Content */,
 			);
@@ -127,6 +162,63 @@
 			path = PoddtoppenUITests;
 			sourceTree = "<group>";
 		};
+		C9E466EA2A90D4D100618A72 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C9E466ED2A90D4E800618A72 /* PodListView.swift */,
+				C9E466EF2A90D4E800618A72 /* PodcastCell.swift */,
+				C9E466EE2A90D4E800618A72 /* PosterImage.swift */,
+				C9E466EB2A90D4E700618A72 /* PodcastDetail.swift */,
+				C9E466EC2A90D4E700618A72 /* EpisodeCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C9E466F52A90D50E00618A72 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C9E4670C2A90D60700618A72 /* Constants.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C9E466F62A90D52200618A72 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C9E466F72A90D54100618A72 /* PodDetailsViewModel.swift */,
+				C9E466F82A90D54100618A72 /* PodsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C9E466FB2A90D55300618A72 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C9E466FD2A90D56000618A72 /* Genre.swift */,
+				C9E466FC2A90D56000618A72 /* Podcast.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C9E467002A90D57700618A72 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				C9E467042A90D58B00618A72 /* MockDataService.swift */,
+				C9E467012A90D58A00618A72 /* NetworkManager.swift */,
+				C9E467022A90D58A00618A72 /* PodDetailsDataService.swift */,
+				C9E467032A90D58A00618A72 /* PodsDataService.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		C9E467092A90D5C000618A72 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C9E4670A2A90D5D700618A72 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +235,9 @@
 			dependencies = (
 			);
 			name = Poddtoppen;
+			packageProductDependencies = (
+				C9E4670F2A90D69D00618A72 /* SDWebImageSwiftUI */,
+			);
 			productName = Poddtoppen;
 			productReference = C9E466BD2A90D41F00618A72 /* Poddtoppen.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +310,9 @@
 				Base,
 			);
 			mainGroup = C9E466B42A90D41F00618A72;
+			packageReferences = (
+				C9E4670E2A90D69D00618A72 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = C9E466BE2A90D41F00618A72 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +355,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9E466C32A90D41F00618A72 /* ContentView.swift in Sources */,
+				C9E466FA2A90D54100618A72 /* PodsViewModel.swift in Sources */,
+				C9E466F32A90D4E800618A72 /* PosterImage.swift in Sources */,
 				C9E466C12A90D41F00618A72 /* PoddtoppenApp.swift in Sources */,
+				C9E466F92A90D54100618A72 /* PodDetailsViewModel.swift in Sources */,
+				C9E467052A90D58B00618A72 /* NetworkManager.swift in Sources */,
+				C9E467082A90D58B00618A72 /* MockDataService.swift in Sources */,
+				C9E467072A90D58B00618A72 /* PodsDataService.swift in Sources */,
+				C9E4670D2A90D60700618A72 /* Constants.swift in Sources */,
+				C9E466F02A90D4E800618A72 /* PodcastDetail.swift in Sources */,
+				C9E466FE2A90D56000618A72 /* Podcast.swift in Sources */,
+				C9E466F22A90D4E800618A72 /* PodListView.swift in Sources */,
+				C9E4670B2A90D5D700618A72 /* Extensions.swift in Sources */,
+				C9E466F42A90D4E800618A72 /* PodcastCell.swift in Sources */,
+				C9E466F12A90D4E800618A72 /* EpisodeCell.swift in Sources */,
+				C9E467062A90D58B00618A72 /* PodDetailsDataService.swift in Sources */,
+				C9E466FF2A90D56000618A72 /* Genre.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +695,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C9E4670E2A90D69D00618A72 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C9E4670F2A90D69D00618A72 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9E4670E2A90D69D00618A72 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C9E466B52A90D41F00618A72 /* Project object */;
 }

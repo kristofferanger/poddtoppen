@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct PoddtoppenApp: App {
+    let dataService: PodsDataServiceProtocol = Constants.api == .mock ? MockDataService() : PodsDataService()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PodListView(viewModel: PodsViewModel(dataService: dataService))
         }
     }
 }
